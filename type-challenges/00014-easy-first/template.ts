@@ -6,9 +6,9 @@ type First<T extends any[]> = T extends [infer First, ...infer Rest]
   : never;
 
 //js
-const first = (arr) => {
-  return arr[0];
-};
+// const first = (arr) => {
+//   return arr[0];
+// };
 
 //知识点
 //1.extends类型条件判断
